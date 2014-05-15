@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    
+    
+    
+    <item android:id="@+id/menLogout" android:title="Logout" android:visible="false"></item><item android:id="@+id/menProfile" android:title="Profile" android:visible="false"></item><item android:id="@+id/menUnits" android:visible="false" android:title="Units"></item><item android:id="@+id/menMatch" android:title="Match" android:visible="false"></item><item android:id="@+id/menPrivacy" android:title="Privacy" android:visible="false"></item>
+    
+
+</menu>

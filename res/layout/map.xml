@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:orientation="vertical" >
+        <com.mapquest.android.maps.MapView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/map"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:clickable="true"
+		android:apiKey="Fmjtd%7Cluur2d6b25%2Crx%3Do5-9abslw"
+	/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cmdMatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Match" />
+
+</LinearLayout>

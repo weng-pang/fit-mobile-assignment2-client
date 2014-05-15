@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.82" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please take your time review your privacy settings"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <CheckBox
+                android:id="@+id/ckbBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Birthday" />
+
+            <CheckBox
+                android:id="@+id/ckbEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Email" />
+
+            <CheckBox
+                android:id="@+id/ckbNationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public Nationality" />
+
+            <CheckBox
+                android:id="@+id/ckbFirstLang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for First Language" />
+
+            <CheckBox
+                android:id="@+id/ckbSecondLang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Second Language" />
+
+            <CheckBox
+                android:id="@+id/ckbGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Gender" />
+
+            <CheckBox
+                android:id="@+id/ckbMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Movie" />
+
+            <CheckBox
+                android:id="@+id/ckbFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Food" />
+
+            <CheckBox
+                android:id="@+id/ckbProgram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Programming Language" />
+
+            <CheckBox
+                android:id="@+id/ckbJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public for Job" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/cmdPrivacyOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.68"
+            android:text="OK" />
+    </LinearLayout>
+
+</LinearLayout>
